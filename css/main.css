@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(250, 235, 215, 0.493) !important;
+}
+
+.next-nxt a{
+    text-decoration: none;
+    color: rgba(37, 163, 247,0.58);
+}
+
+.hr {
+    border: 0;
+    height: 1.75px;
+    margin: 0px 0 0px 0;
+    color: white;
+    background-image: linear-gradient(to right, rgba(229, 236, 253, .05), rgba(248, 26, 56, 0.815), rgba(229, 236, 253, .05));
+}
+
+.videos-vid{
+    height: 100vh;
+}
+
+.videos-vid ul{
+    padding-left: 0 !important;
+}
+
+.videos-vid ul li{
+    list-style-type: none;
+}
+
+.videos-vid ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .color-blend{
+        display: none;
+    }
+    .carousel-item img{
+        height: 100vh;
+    }
+    .hr{
+        display: none;
+    }
+}
+
+
+
+
